@@ -22,6 +22,10 @@ describe('Calculator', function() {
 			expect(this.aCalculator.add.bind(this.aCalculator, 1)).to.throw();
 		});
 
+		it("should add a series of number arguments together", function() {
+			expect(this.aCalculator.add(1, 3)).to.equal(1 + 3);
+		});
+
 	});
 
 });
