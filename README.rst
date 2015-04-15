@@ -24,4 +24,5 @@ Running tests
 .. code:: bash
 
 	cd javascript-mocha-unit-test-sample
+	npm install chai
 	mocha
