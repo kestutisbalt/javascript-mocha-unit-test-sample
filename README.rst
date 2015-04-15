@@ -3,7 +3,7 @@ About
 =====
 
 This is sample of writing unit tests for JavaScript code using Mocha testing
-framework. It also uses _Chai: http://chaijs.com assertions library.
+framework. It also uses `Chai <http://chaijs.com>`_ assertions library.
 
 
 Environment preparation
