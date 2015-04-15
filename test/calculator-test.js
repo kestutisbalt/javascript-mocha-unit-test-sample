@@ -18,6 +18,10 @@ describe('Calculator', function() {
 			expect(this.aCalculator.add.bind(this.aCalculator, 2, 'a')).to.throw();
 		});
 
+		it("should throw an error if less than 2 values are provided", function() {
+			expect(this.aCalculator.add.bind(this.aCalculator, 1)).to.throw();
+		});
+
 	});
 
 });
